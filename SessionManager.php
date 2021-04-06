@@ -45,6 +45,7 @@
     if (!$this->Copy_Client_Session()){
      throw new Exception('UNABLE_TO_COPY_CLIENT_SESSION');
     }
+    return false;
    }
    return $this->SessionCopiedBefore;
   }
