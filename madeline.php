@@ -1,9 +1,23 @@
 <?php
 
+\define('MADELINE_PHP', __FILE__);
+
 function ___install_madeline()
 {
     if (\count(\debug_backtrace(0)) === 1) {
-        die('You must include this file in another PHP script'.PHP_EOL);
+        if (isset($GLOBALS['argv']) && !empty($GLOBALS['argv'])) {
+            $arguments = \array_slice($GLOBALS['argv'], 1);
+        } elseif (isset($_GET['argv']) && !empty($_GET['argv'])) {
+            $arguments = $_GET['argv'];
+        } else {
+            $arguments = [];
+        }
+        if (\count($arguments) >= 2) {
+            \define(\MADELINE_WORKER_TYPE::class, \array_shift($arguments));
+            \define(\MADELINE_WORKER_ARGS::class, $arguments);
+        } else {
+            die('MadelineProto loader: you must include this file in another PHP script, see https://docs.madelineproto.xyz for more info.'.PHP_EOL);
+        }
     }
     $old = false;
     if (PHP_MAJOR_VERSION === 5) {
@@ -22,11 +36,11 @@ function ___install_madeline()
         }
         echo "**********************************************************************************$newline";
         echo "**********************************************************************************$newline$newline";
-        echo "YOU ARE USING AN OLD AND BUGGED VERSION OF PHP, PLEASE UPDATE TO PHP 7.3$newline";
+        echo "YOU ARE USING AN OLD AND BUGGED VERSION OF PHP, PLEASE UPDATE TO PHP 8.0$newline";
         echo "PHP 5/7.0 USERS WILL NOT RECEIVE PHP UPDATES AND BUGFIXES: https://www.php.net/eol.php$newline";
         echo "PHP 5/7.0 USERS WILL NOT RECEIVE MADELINEPROTO UPDATES AND BUGFIXES$newline$newline";
-        echo "SUPPORTED VERSIONS: PHP 7.1, 7.2, 7.3+$newline";
-        echo "RECOMMENDED VERSION: PHP 7.3$newline$newline";
+        echo "SUPPORTED VERSIONS: PHP 7.1, 7.2, 7.3, 7.4, 8.0+$newline";
+        echo "RECOMMENDED VERSION: PHP 8.0$newline$newline";
         echo "**********************************************************************************$newline";
         echo "**********************************************************************************$newline";
         unset($newline);
@@ -56,19 +70,13 @@ function ___install_madeline()
         $custom_branch = '';
     }
 
-    $release_branch = "-$custom_branch";
-    if ($release_branch === '-') {
-        $release_branch = '';
+    $version = (string) min(80, (int) (PHP_MAJOR_VERSION.PHP_MINOR_VERSION));
+    if ($custom_branch === '') {
+        $release_branch = $version;
+    } else {
+        $release_branch = "$version-$custom_branch";
     }
-    $release_fallback_branch = '';
-
-    if (PHP_MAJOR_VERSION <= 5) {
-        $release_branch = '5'.$release_branch;
-        $release_fallback_branch = '5'.$release_fallback_branch;
-    } elseif (PHP_MAJOR_VERSION === 7 && PHP_MINOR_VERSION < 4) {
-        $release_branch = '70'.$release_branch;
-        $release_fallback_branch = '70'.$release_fallback_branch;
-    }
+    $release_fallback_branch = $version;
 
     // Checking if defined branch/default branch builds can be downloaded
     if (!($release = @\file_get_contents(\sprintf($release_template, $release_branch)))) {
@@ -77,6 +85,8 @@ function ___install_madeline()
         }
         $release_branch = $release_fallback_branch;
     }
+
+    \define('HAD_MADELINE_PHAR', \file_exists('madeline.phar'));
 
     if (!\file_exists('madeline.phar') || !\file_exists('madeline.phar.version') || \file_get_contents('madeline.phar.version') !== $release) {
         $phar = \file_get_contents(\sprintf($phar_template, $release_branch));
@@ -116,31 +126,31 @@ function ___install_madeline()
                 ];
             }
 
-            if (defined('HHVM_VERSION')) {
-                $phpVersion = 'HHVM ' . HHVM_VERSION;
+            if (\defined('HHVM_VERSION')) {
+                $phpVersion = 'HHVM '.HHVM_VERSION;
             } else {
-                $phpVersion = 'PHP ' . PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION;
+                $phpVersion = 'PHP '.PHP_MAJOR_VERSION.'.'.PHP_MINOR_VERSION.'.'.PHP_RELEASE_VERSION;
             }
             $opts = ['http' =>
                 [
                     'method' => 'POST',
                     'header' => [
-                        'Content-Type: application/json', 
-                        sprintf(
+                        'Content-Type: application/json',
+                        \sprintf(
                             'User-Agent: Composer/%s (%s; %s; %s; %s%s)',
                             'MadelineProto',
-                            function_exists('php_uname') ? @php_uname('s') : 'Unknown',
-                            function_exists('php_uname') ? @php_uname('r') : 'Unknown',
+                            \function_exists('php_uname') ? @\php_uname('s') : 'Unknown',
+                            \function_exists('php_uname') ? @\php_uname('r') : 'Unknown',
                             $phpVersion,
                             'streams',
-                            getenv('CI') ? '; CI' : ''
+                            \getenv('CI') ? '; CI' : ''
                         )
                      ],
                     'content' => \json_encode($postData),
                     'timeout' => 6,
                 ],
             ];
-            //@\file_get_contents("https://packagist.org/downloads/", false, \stream_context_create($opts));
+            @\file_get_contents("https://packagist.org/downloads/", false, \stream_context_create($opts));
         }
     }
 }
