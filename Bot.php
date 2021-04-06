@@ -47,8 +47,8 @@
  
  
  
- $Bot = Bot::GetInstance();
- echo json_encode($Bot->MLP->getSelf());
+// $Bot = Bot::GetInstance();
+// echo json_encode($Bot->MLP->getSelf());
  
  
  
