@@ -74,14 +74,17 @@
      $FullInfo = $Client->GetFullInfo($update['message']['message']);
      yield $this->messages->sendMessage(['peer' => $update, 'message' => 'درحال استخراج اطلاعات', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
      $TypeInWords = '';
+     $TypeFlag = '';
      if (
       array_key_exists('type',$FullInfo)
      ){
       if ($FullInfo['type'] === 'supergroup'){
       $TypeInWords = 'گروه';
+       $TypeFlag = 'supergroup';
       }
       elseif ($FullInfo['type'] === 'channel'){
       $TypeInWords = 'کانال';
+       $TypeFlag = 'channel';
       }
       else{
        yield $this->messages->sendMessage(['peer' => $update, 'message' => 'نوع لینک قابل شناسایی نیست مجددا تلاش کنید', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
@@ -148,14 +151,75 @@
        ;
       }
      }
-     $Description = array_key_exists('description',$FullInfo['full']) ? $FullInfo['full']['description'] : 'ندارد';
+     $Default_Banned_Rights_InWords = '';
+     $DoesHaveBannedRights = null;
+     if ($TypeFlag === 'channel'){$DoesHaveBannedRights = false;}
+     if ($TypeFlag === 'supergroup'){
+      $DoesHaveBannedRights = true;
+      $EveryThingIsFree = true;
+     if ($FullInfo['Chat']['default_banned_rights']['view_messages']){
+      $Default_Banned_Rights_InWords .= ' '.'دیدن پیام ها'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['send_messages']){
+      $Default_Banned_Rights_InWords .= ' '.'ارسال پیام'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['send_media']){
+      $Default_Banned_Rights_InWords .= ' '.'ارسال فایل'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['send_stickers']){
+      $Default_Banned_Rights_InWords .= ' '.'ارسال استیکر'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['send_gifs']){
+      $Default_Banned_Rights_InWords .= ' '.'ارسال گیف'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['send_games']){
+      $Default_Banned_Rights_InWords .= ' '.'ارسال بازی'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['send_inline']){
+      $Default_Banned_Rights_InWords .= ' '.'ارسال دکمه شیشه ای'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['embed_links']){
+      $Default_Banned_Rights_InWords .= ' '.'ارسال لینک'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['send_polls']){
+      $Default_Banned_Rights_InWords .= ' '.'ارسال رای گیری'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['change_info']){
+      $Default_Banned_Rights_InWords .= ' '.'تغییر اطلاعات'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['invite_users']){
+      $Default_Banned_Rights_InWords .= ' '.'دعوت افراد'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($FullInfo['Chat']['default_banned_rights']['pin_messages']){
+      $Default_Banned_Rights_InWords .= ' '.'پین کردن پیام'.' ';
+      $EveryThingIsFree = false;
+     }
+     if ($EveryThingIsFree){
+      $Default_Banned_Rights_InWords .= 'همه چیز ازاد است';
+     }
+     
+     }
+     $Description = (array_key_exists('about',$FullInfo['full']) && $FullInfo['full']['about'] != '') ? $FullInfo['full']['about'] : 'ندارد';
+     $BannedRights = $DoesHaveBannedRights ? 'ممنوعیت ها'.':'.PHP_EOL.$Default_Banned_Rights_InWords : '';
      $LinkInfoInWords = ''
-      .'عنوان'.PHP_EOL.$FullInfo['Chat']['title'].PHP_EOL
-      .'نوع'.PHP_EOL.$TypeInWords.PHP_EOL
-      .'وضعیت'.PHP_EOL.$Public_Private_InWords.PHP_EOL
-      .'تعداد کاربران واقعی'.PHP_EOL.$FullInfo['full']['participants_count'].PHP_EOL
-      .'لینک'.PHP_EOL.$GroupLinkInWords.PHP_EOL
-      .'توضیحات'.PHP_EOL.$Description.PHP_EOL
+      .'عنوان'.':'.PHP_EOL.$FullInfo['Chat']['title'].PHP_EOL
+      .'نوع'.':'.PHP_EOL.$TypeInWords.PHP_EOL
+      .'وضعیت'.':'.PHP_EOL.$Public_Private_InWords.PHP_EOL
+      .'تعداد کاربران واقعی'.':'.PHP_EOL.$FullInfo['full']['participants_count'].PHP_EOL
+      .'لینک'.':'.PHP_EOL.$GroupLinkInWords
+      .$BannedRights.PHP_EOL
+      .'توضیحات'.':'.PHP_EOL.$Description.PHP_EOL
      ;
      yield $this->messages->sendMessage(['peer' => $update, 'message' => $LinkInfoInWords, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
      return ;
