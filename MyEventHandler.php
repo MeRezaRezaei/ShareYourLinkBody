@@ -71,8 +71,29 @@
    $Client = Client::GetInstance();
     try {
      $FullInfo = $Client->GetFullInfo($update['message']['message']);
-     $res = \json_encode($FullInfo, JSON_PRETTY_PRINT);
-     yield $this->messages->sendMessage(['peer' => $update, 'message' => "<code>$res</code>", 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+     yield $this->messages->sendMessage(['peer' => $update, 'message' => 'درحال استخراج اطلاعات', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+     $TypeInWords = '';
+     if (
+      array_key_exists('type',$FullInfo)
+     ){
+      if ($FullInfo['type'] === 'supergroup'){
+      $TypeInWords = 'گروه';
+      }
+      elseif ($FullInfo['type'] === 'channel'){
+      $TypeInWords = 'کانال';
+      }
+      else{
+       yield $this->messages->sendMessage(['peer' => $update, 'message' => 'نوع لینک قابل شناسایی نیست مجددا تلاش کنید', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+       return;
+      }
+     }
+     else{
+      yield $this->messages->sendMessage(['peer' => $update, 'message' => 'نوع لینک از طرف تلگرام اعلام نشده لطفا مجددا تلاش کنید', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+      return;
+     }
+     
+     $LinkInfoInWords = ''
+      .'';
     }
     catch (RuntimeException $RuntimeExceptionWhileGettingLinkFullInfo){
     switch ($RuntimeExceptionWhileGettingLinkFullInfo->getMessage()){
