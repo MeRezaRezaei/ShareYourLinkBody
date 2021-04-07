@@ -91,6 +91,16 @@
       yield $this->messages->sendMessage(['peer' => $update, 'message' => 'نوع لینک از طرف تلگرام اعلام نشده لطفا مجددا تلاش کنید', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
       return;
      }
+     $Public_Private_Flag = '';
+     $Public_Private_InWords = '';
+     if (array_key_exists('username',$FullInfo['Chat'])){
+      $Public_Private_Flag = 'public';
+      $Public_Private_InWords = 'عمومی';
+     }else{
+      $Public_Private_Flag = 'private';
+      $Public_Private_InWords = 'خصوصی';
+     }
+     
      
      $LinkInfoInWords = ''
       .'';
