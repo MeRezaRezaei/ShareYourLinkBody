@@ -122,15 +122,15 @@
       if ($Link_Public_Private === 'private'){
        // writing both public and private link
        $GroupLinkInWords = ''
-        .$update['message']['message'].PHP_EOL
-        .'t.me/'.$FullInfo['Chat']['username'].PHP_EOL
+        .'https://t.me/'.$FullInfo['Chat']['username'].PHP_EOL
         .'@'.$FullInfo['Chat']['username'].PHP_EOL
+        .$update['message']['message'].PHP_EOL
        ;
       }
       elseif ($Link_Public_Private === 'public'){
        // both the group and link were public
        $GroupLinkInWords = ''
-        .'t.me/'.$FullInfo['Chat']['username'].PHP_EOL
+        .'https://t.me/'.$FullInfo['Chat']['username'].PHP_EOL
         .'@'.$FullInfo['Chat']['username'].PHP_EOL
        ;
       }
@@ -221,7 +221,7 @@
       .$BannedRights.PHP_EOL
       .'توضیحات'.':'.PHP_EOL.$Description.PHP_EOL
      ;
-     yield $this->messages->sendMessage(['peer' => $update, 'message' => $LinkInfoInWords, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+     yield $this->messages->sendMessage(['peer' => $update, 'message' => $LinkInfoInWords, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML','no_webpage'=>true]);
      return ;
     }
     catch (RuntimeException $RuntimeExceptionWhileGettingLinkFullInfo){
