@@ -197,7 +197,7 @@
  }
  
  
-// $Client = Client::GetInstance();
+   $Client = Client::GetInstance();
 // $Info = $Client->GetFullInfo('https://t.me/joinchat/5gxWSALEeZ5mNTI0');
 // echo json_encode($Info);
  
