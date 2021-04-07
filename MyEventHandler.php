@@ -148,14 +148,14 @@
        ;
       }
      }
-     // debug
-     //yield $this->messages->sendMessage(['peer' => $update, 'message' => ''.$Public_Private_Flag, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
-     //yield $this->messages->sendMessage(['peer' => $update, 'message' => ''.$Link_Public_Private, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+     $Description = array_key_exists('description',$FullInfo['full']) ? $FullInfo['full']['description'] : 'ندارد';
      $LinkInfoInWords = ''
       .'عنوان'.PHP_EOL.$FullInfo['Chat']['title'].PHP_EOL
       .'نوع'.PHP_EOL.$TypeInWords.PHP_EOL
       .'وضعیت'.PHP_EOL.$Public_Private_InWords.PHP_EOL
+      .'تعداد کاربران واقعی'.PHP_EOL.$FullInfo['full']['participants_count'].PHP_EOL
       .'لینک'.PHP_EOL.$GroupLinkInWords.PHP_EOL
+      .'توضیحات'.PHP_EOL.$Description.PHP_EOL
      ;
      yield $this->messages->sendMessage(['peer' => $update, 'message' => $LinkInfoInWords, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
      return ;
