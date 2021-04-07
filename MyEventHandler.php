@@ -55,6 +55,19 @@
    if ($update['message']['_'] === 'messageEmpty' || $update['message']['out'] ?? false) {
     return;
    }
+   $WelcomeMessage = ''
+    .'سلام به ربات اشتراک گذاری لینک خوش امدید'.PHP_EOL.PHP_EOL
+    .'من میتونم اطلاعات گروه ها و کانال های تلگرام رو استخراج کنم'.PHP_EOL.PHP_EOL
+    .'و در کانال متصل به ربات به اشتراک بگذارم فقط کافیه'.PHP_EOL.PHP_EOL
+    .'لینک یا یوزرنیم یک کانال یا گروه رو برای من بفرستید'.PHP_EOL.PHP_EOL
+    .'شاد پیروز و سلامت باشید'
+   ;
+   if($update['message']['message'] === '/start'){
+    
+    yield $this->messages->sendMessage(['peer' => $update, 'message' => $WelcomeMessage, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+    return;
+   }
+   
    $res = \json_encode($update, JSON_PRETTY_PRINT);
    
    try {
