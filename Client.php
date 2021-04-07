@@ -68,6 +68,7 @@
           break;
          }
         default:{
+         throw new RuntimeException('UNHANDLED_EXCEPTION_DETECTED');
          break;
         }
        }

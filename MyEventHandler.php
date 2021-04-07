@@ -1,5 +1,5 @@
 <?php
- 
+ require_once 'Client.php';
  use danog\MadelineProto\EventHandler;
  use danog\MadelineProto\Tools;
  use danog\MadelineProto\API;
@@ -67,7 +67,43 @@
     yield $this->messages->sendMessage(['peer' => $update, 'message' => $WelcomeMessage, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
     return;
    }
+   else{
+   $Client = Client::GetInstance();
+    try {
+     $FullInfo = $Client->GetFullInfo($update['message']['message']);
+     $res = \json_encode($FullInfo, JSON_PRETTY_PRINT);
+     yield $this->messages->sendMessage(['peer' => $update, 'message' => "<code>$res</code>", 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+    }
+    catch (RuntimeException $RuntimeExceptionWhileGettingLinkFullInfo){
+    switch ($RuntimeExceptionWhileGettingLinkFullInfo->getMessage()){
+     case 'IS_NOT_LINK':{
+      yield $this->messages->sendMessage(['peer' => $update, 'message' => 'متنی که فرستادید لینک نیست', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+       break;
+      }
+     case 'USERNAME_INVALID':{
+      yield $this->messages->sendMessage(['peer' => $update, 'message' => 'متنی که فرستادید نام کابری معتبر نیست', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+      break;
+     }
+     case 'IS_USER':{
+      yield $this->messages->sendMessage(['peer' => $update, 'message' => 'نام کاربری فرستاده شده متعلق به کاربر است لطفا لینک کانال یا گروه مورد نظر خود را وارد کنید', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+      break;
+     }
+     case 'UNABLE_TO_FIND_INFO':
+     case 'CHANNELS_TOO_MUCH':
+     case 'UNHANDLED_EXCEPTION_DETECTED':
+      {
+     yield $this->messages->sendMessage(['peer' => $update, 'message' => 'مشکلی در ارائه خدمات وجود دارد لطفا مجددا تلاش کنید', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+      break;
+     }
+    }
+    return ;
+    }
+    catch (Exception $ExceptionWhileGettingLinkFullInfo){
+     yield $this->messages->sendMessage(['peer' => $update, 'message' => 'مشکلی در ارائه خدمات وجود دارد لطفا مجددا تلاش کنید', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+     return ;
+    }
    
+   }
    $res = \json_encode($update, JSON_PRETTY_PRINT);
    
    try {
