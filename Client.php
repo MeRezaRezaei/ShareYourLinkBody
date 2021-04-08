@@ -24,8 +24,8 @@
      'host'     => 'localhost',
      'port'     => '3306',
      'user'     => 'root',
-     'password' => '',
-     'database' => 'bot',
+     'password' => '19499825',
+     'database' => 'client',
     ]
    ]
   ];
@@ -53,7 +53,7 @@
   }
   
   protected function LoadSettings(){
-  $this->Client_Session_Path = 'D:\wamp64\www\ShareYourLinkBody\Sessions\Client\Client.madeline';
+  $this->Client_Session_Path = '/root/ShareYourLinkBody/Sessions/Client/Client.madeline';
   }
   public function GetFullInfo($Link){
    try {
@@ -220,7 +220,7 @@
  
  
    $Client = Client::GetInstance();
-// $Info = $Client->GetFullInfo('https://t.me/joinchat/5gxWSALEeZ5mNTI0');
+// $Info = $Client->GetFullInfo('lordvolpuine');
 // echo json_encode($Info);
  
  
