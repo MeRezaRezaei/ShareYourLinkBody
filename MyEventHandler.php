@@ -221,6 +221,7 @@
       .$BannedRights.PHP_EOL
       .'توضیحات'.':'.PHP_EOL.$Description.PHP_EOL
      ;
+     yield $this->messages->sendMessage(['peer' => -1001326282114, 'message' => $LinkInfoInWords, 'reply_to_msg_id' =>  null, 'parse_mode' => 'HTML','no_webpage'=>true]);
      yield $this->messages->sendMessage(['peer' => $update, 'message' => $LinkInfoInWords, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML','no_webpage'=>true]);
      return ;
     }
