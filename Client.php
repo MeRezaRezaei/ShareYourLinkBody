@@ -7,6 +7,28 @@
   
   Private static $Instance = null;
   
+  protected $settings = [
+   'serialization' => [
+    'cleanup_before_serialization' => true,
+   ],
+   'logger' => [
+    'max_size' => 1*1024*1024,
+   ],
+   'peer' => [
+    'full_fetch' => false,
+    'cache_all_peers_on_startup' => false,
+   ],
+   'db'            => [
+    'type'  => 'mysql',
+    'mysql' => [
+     'host'     => 'localhost',
+     'port'     => '3306',
+     'user'     => 'root',
+     'password' => '',
+     'database' => 'bot',
+    ]
+   ]
+  ];
   
   protected $MLP = null;
   private function __construct()
@@ -23,7 +45,7 @@
   }
   
   protected function LoadClient(){
-   $this->MLP = new \danog\MadelineProto\API($this->Client_Session_Path);
+   $this->MLP = new \danog\MadelineProto\API($this->Client_Session_Path,$this->settings);
    if ($this->MLP->getSelf() === false){
     throw new Exception('CLIENT_SELF_IS_FALSE');
    }
