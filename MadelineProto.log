@@ -1,0 +1,1800 @@
+[37;1;44mLogger:         	MadelineProto[0m
+[37;1;44mLogger:         	Copyright (C) 2016-2020 Daniil Gentili[0m
+[37;1;44mLogger:         	Licensed under AGPLv3[0m
+[37;1;44mLogger:         	https://github.com/danog/MadelineProto[0m
+[33;1mSerialization:  	Got exclusive session lock![0m
+[33;1mDataCenter, ShareYourLinkManager:     	Disconnecting all before reconnect![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Disconnecting from shared DC [0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Backed up 0, added to 0 existing messages) from DC [0m
+[33;1mDataCenter, ShareYourLinkManager:     	Disconnecting all before reconnect![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Disconnecting from shared DC [0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Backed up 0, added to 0 existing messages) from DC [0m
+[33;1mDataCenter, ShareYourLinkManager:     	Disconnecting all before reconnect![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Disconnecting from shared DC [0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Backed up 0, added to 0 existing messages) from DC [0m
+[33;1mDataCenter, ShareYourLinkManager:     	Disconnecting all before reconnect![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Disconnecting from shared DC [0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Backed up 0, added to 0 existing messages) from DC [0m
+[33;1mDataCenter, ShareYourLinkManager:     	Disconnecting all before reconnect![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Disconnecting from shared DC [0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Backed up 0, added to 0 existing messages) from DC [0m
+[33;1mDataCenter, ShareYourLinkManager:     	Disconnecting all before reconnect![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Disconnecting from shared DC [0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Backed up 0, added to 0 existing messages) from DC [0m
+[33;1mDataCenter, ShareYourLinkManager:     	Disconnecting all before reconnect![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Disconnecting from shared DC [0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Backed up 0, added to 0 existing messages) from DC [0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 2 (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.167.51:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 2.0[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 2.0...[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 1 (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.175.54:443 main DC 1, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 1.0[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 1.0...[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 2_media (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.167.151:443 main DC 2_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 2_media.0[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 2_media.0...[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 3 (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.175.100:443 main DC 3, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 3.0[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 3.0...[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 4 (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.167.91:443 main DC 4, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 4.0[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 4.0...[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 4_media (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.165.120:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 4_media.0[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 4_media.0...[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 5 (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://91.108.56.110:443 main DC 5, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 5.0[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 5.0...[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 4.0![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Restoring 0 messages to DC 4[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 4_media.0![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 4_media.1[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 4_media.1...[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 5.0![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Restoring 0 messages to DC 5[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[33;1mReadLoop, ShareYourLinkManager:       	danog\MadelineProto\NothingInTheSocketException in phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:178
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator(1)
+#1 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(115): Generator->send(NULL)
+#2 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Internal/Placeholder.php(125): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}(NULL, NULL)
+#3 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Deferred.php(48): class@anonymous->resolve(NULL)
+#4 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/byte-stream/lib/ResourceInputStream.php(76): Amp\Deferred->resolve(NULL)
+#5 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Loop/NativeDriver.php(259): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}('aj', Resource id #583, NULL)
+#6 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Loop/NativeDriver.php(97): Amp\Loop\NativeDriver->selectStreams(Array, Array, 1.665)
+#7 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Loop/Driver.php(117): Amp\Loop\NativeDriver->dispatch(true)
+#8 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Loop/Driver.php(61): Amp\Loop\Driver->tick()
+#9 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Loop.php(87): Amp\Loop\Driver->run()
+#10 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(313): Amp\Loop::run(Object(Closure))
+#11 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Async/AsyncConstruct.php(46): danog\MadelineProto\Tools::wait(Object(danog\MadelineProto\Coroutine))
+#12 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(93): danog\MadelineProto\Async\AsyncConstruct->init()
+#13 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(118): {closure}()
+#14 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/composer/autoload_real.php(69): require('phar://D:/wamp6...')
+#15 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/composer/autoload_real.php(59): composerRequire12fe9dc936e40e00104db0ef00eeefbc('efa978c9bd4884d...', 'phar://D:/wamp6...')
+#16 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/autoload.php(7): ComposerAutoloaderInit12fe9dc936e40e00104db0ef00eeefbc::getLoader()
+#17 D:\wamp64\www\ShareYourLinkBody\madeline-74.phar(16): require_once('phar://D:/wamp6...')
+#18 D:\wamp64\www\ShareYourLinkBody\madeline.php(170): require_once('D:\\wamp64\\www\\S...')
+#19 {main}[0m
+[97;1;41mReadLoop, ShareYourLinkManager:       	Got nothing in the socket in DC 4.0, reconnecting...[0m
+[33;1mConnection, ShareYourLinkManager:     	Reconnecting DC 4.0[0m
+[33;1mConnection, ShareYourLinkManager:     	Disconnecting from DC 4.0[0m
+[33;1mConnection, ShareYourLinkManager:     	Disconnected from DC 4.0[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 4 (0) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.167.91:443 main DC 4, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (0)[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 4.0[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 4_media.1![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 4_media.2[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 4_media.2...[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 4.0![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 4_media.2![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 4_media.3[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 4_media.3...[0m
+[33;1mReadLoop, ShareYourLinkManager:       	danog\MadelineProto\NothingInTheSocketException in phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:178
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator(1)
+#1 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(115): Generator->send(NULL)
+#2 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Internal/Placeholder.php(125): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}(NULL, NULL)
+#3 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Deferred.php(48): class@anonymous->resolve(NULL)
+#4 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/byte-stream/lib/ResourceInputStream.php(76): Amp\Deferred->resolve(NULL)
+#5 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Loop/NativeDriver.php(259): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}('ba', Resource id #621, NULL)
+#6 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Loop/NativeDriver.php(97): Amp\Loop\NativeDriver->selectStreams(Array, Array, 1.468)
+#7 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Loop/Driver.php(117): Amp\Loop\NativeDriver->dispatch(true)
+#8 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Loop/Driver.php(61): Amp\Loop\Driver->tick()
+#9 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/amphp/amp/lib/Loop.php(87): Amp\Loop\Driver->run()
+#10 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(313): Amp\Loop::run(Object(Closure))
+#11 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Async/AsyncConstruct.php(46): danog\MadelineProto\Tools::wait(Object(danog\MadelineProto\Coroutine))
+#12 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(93): danog\MadelineProto\Async\AsyncConstruct->init()
+#13 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(118): {closure}()
+#14 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/composer/autoload_real.php(69): require('phar://D:/wamp6...')
+#15 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/composer/autoload_real.php(59): composerRequire12fe9dc936e40e00104db0ef00eeefbc('efa978c9bd4884d...', 'phar://D:/wamp6...')
+#16 phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/autoload.php(7): ComposerAutoloaderInit12fe9dc936e40e00104db0ef00eeefbc::getLoader()
+#17 D:\wamp64\www\ShareYourLinkBody\madeline-74.phar(16): require_once('phar://D:/wamp6...')
+#18 D:\wamp64\www\ShareYourLinkBody\madeline.php(170): require_once('D:\\wamp64\\www\\S...')
+#19 {main}[0m
+[97;1;41mReadLoop, ShareYourLinkManager:       	Got nothing in the socket in DC 4.0, reconnecting...[0m
+[33;1mConnection, ShareYourLinkManager:     	Reconnecting DC 4.0[0m
+[33;1mConnection, ShareYourLinkManager:     	Disconnecting from DC 4.0[0m
+[33;1mConnection, ShareYourLinkManager:     	Disconnected from DC 4.0[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 4 (0) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.167.91:443 main DC 4, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (0)[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 4.0[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 4_media.3![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 4_media.4[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 4_media.4...[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 4.0![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 4_media.4![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Restoring 0 messages to DC 4_media[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 2.0![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Restoring 0 messages to DC 2[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 2_media.0![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 2_media.1[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 2_media.1...[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 1.0![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Restoring 0 messages to DC 1[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 3.0![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Restoring 0 messages to DC 3[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 2_media.1![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 2_media.2[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 2_media.2...[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 2_media.2![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 2_media.3[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 2_media.3...[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 2_media.3![0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connecting to DC 2_media.4[0m
+[97;2;41mSession, ShareYourLinkManager:        	Resetting session in DC 2_media.4...[0m
+[97;2;41mConnection, ShareYourLinkManager:     	Connected to DC 2_media.4![0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Restoring 0 messages to DC 2_media[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 2...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 2[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 1...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 1[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 3...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 3[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 4...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 4[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 5...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 5[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 2_media...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 2_media[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 4_media...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 4_media[0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 2 (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.167.51:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mDataCenterConnection, ShareYourLinkManager: 	Already connected![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 1 (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.175.54:443 main DC 1, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mDataCenterConnection, ShareYourLinkManager: 	Already connected![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 2_media (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.167.151:443 main DC 2_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mDataCenterConnection, ShareYourLinkManager: 	Already connected![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 3 (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.175.100:443 main DC 3, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mDataCenterConnection, ShareYourLinkManager: 	Already connected![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 4 (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.167.91:443 main DC 4, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mDataCenterConnection, ShareYourLinkManager: 	Already connected![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 4_media (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://149.154.165.120:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mDataCenterConnection, ShareYourLinkManager: 	Already connected![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	Reconnecting to DC 5 (-1) from existing[0m
+[33;1mDataCenterConnection, ShareYourLinkManager: 	Trying shared connection via tcp://91.108.56.110:443 main DC 5, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)[0m
+[97;2;41mDataCenterConnection, ShareYourLinkManager: 	Already connected![0m
+[97;2;41mDataCenter, ShareYourLinkManager:     	OK![0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 2...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 2[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 1...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 1[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 3...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 3[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 4...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 4[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 5...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 5[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 2_media...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 2_media[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 4_media...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 4_media[0m
+[33;1mMTProto, ShareYourLinkManager:        	Not fetching phone config[0m
+[33;1mMTProto, ShareYourLinkManager:        	Not fetching phone config[0m
+[33;1mMTProto, ShareYourLinkManager:        	Accepted IPC client connection![0m
+[33;1mMsgIdHandler64, ShareYourLinkManager: 	Given message id (6948484019037970433) is bigger than or equal to the current limit (6948484019037952001). Consider syncing your date.[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 2...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 2[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 1...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 1[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 3...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 3[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 4...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 4[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 5...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 5[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 2_media...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 2_media[0m
+[33;1mMTProto, ShareYourLinkManager:        	Initing authorization DC 4_media...[0m
+[33;1mMTProto, ShareYourLinkManager:        	Done initing authorization DC 4_media[0m
+[33;1mMTProto, ShareYourLinkManager:        	Starting update system[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1148449982[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1460631673[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[33;1mMTProto, ShareYourLinkManager:        	Getting updates after deserialization...[0m
+[33;1mMsgIdHandler64, ShareYourLinkManager: 	Given message id (6948484024348864513) is bigger than or equal to the current limit (6948484024348860417). Consider syncing your date.[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1148449982[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Got channel too long update, getting difference...[0m
+[33;1mAPI, ShareYourLinkManager:            	MadelineProto is ready![0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1148449982...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1148449982...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1148449982...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1148449982...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mGarbageCollector, ShareYourLinkManager: 	gc_collect_cycles done. Cleaned memory: 1 Mb[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Got channel too long update, getting difference...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	MSGID duplicate (233100) in update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type messageService in update feed loop channel 1332933621...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[33;1mResponseHandler, ShareYourLinkManager: 	Flood, waiting 11 seconds before repeating async call of contacts.resolveUsername with message ID 6948485386679091200...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[31;1;47mAckHandler, ShareYourLinkManager:     	Could not find contacts.resolveUsername in new_outgoing![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mMsgIdHandler64, ShareYourLinkManager: 	Given message id (6948485442456303617) is bigger than or equal to the current limit (6948485442456297473). Consider syncing your date.[0m
+[97;1;41mPeerHandler, ShareYourLinkManager:    	Username resolution failed with error USERNAME_NOT_OCCUPIED[0m
+[31;1;47mException, ShareYourLinkManager:      	This peer is not present in the internal peer database in PeerHandler.php:679[0m
+[97;1;41mMTProto, ShareYourLinkManager:        	Got error while calling IPC method: \danog\MadelineProto\Exception: This peer is not present in the internal peer database in phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/MTProtoTools/PeerHandler.php:679
+Revision: 99883e87ffb1490e8b66bcbc7b4122820f0a18ae-74 (AN UPDATE IS REQUIRED)
+TL Trace:
+
+PeerHandler.php(677):	getInfo()
+PeerHandler.php(820):	getInfo()
+Server.php(200):    	getFullInfo("\ud83d\ude07",[])
+clientRequest({},3,["getFullInfo",["\ud83d\ude07",[]]])
+Coroutine.php(115): 	send(null)
+Failure.php(30):    	danog\MadelineProto\{closure}({"rpc":"USERNAME_NOT_OCCUPIED","tlTrace":"['contacts.resolveUsername']\r\nCallHandler.php(59):\tmethodCallAsyncRead()\r\nPeerHandler.php(1194):\tmethodCallAsyncRead()\r\nPeerHandler.php(676):\tresolveUsername()\r\nPeerHandler.php(820):\tgetInfo()\r\nServer.php(200):    \tgetFullInfo(\"\\ud83d\\ude07\",[])\r\nclientRequest()\r\n\r\nPrevious TL trace:\r\n['contacts.resolveUsername']\r\nResponseHandler.php(183):\thandleRpcError({},{\"_\":\"rpc_error\",\"error_code\":400,\"error_message\":\"USERNAME_NOT_OCCUPIED\"})\r\nResponseHandler.php(65):\thandleResponse({})\r\nDriver.php(102):    \thandleMessages(\"cwb\",null)\r\nDriver.php(61):     \ttick()\r\nLoop.php(87):       \trun()\r\nTools.php(313):     \trun({})\r\nentry.php(98):      \twait({})\r\nentry.php(118):     \t{closure}()\r\nautoload_real.php(69):\trequire(\"phar:\\\/\\\/D:\\\/wamp64\\\/www\\\/ShareYourLinkBody\\\/madeline-74.phar\\\/vendor\\\/danog\\\/madelineproto\\\/src\\\/danog\\\/MadelineProto\\\/Ipc\\\/Runner\\\/entry.php\")\r\nautoload_real.php(59):\tcomposerRequire12fe9dc936e40e00104db0ef00eeefbc(\"efa978c9bd4884d9c38b8fa99d974f0e\",\"phar:\\\/\\\/D:\\\/wamp64\\\/www\\\/ShareYourLinkBody\\\/madeline-74.phar\\\/vendor\\\/composer\\\/..\\\/danog\\\/madelineproto\\\/src\\\/danog\\\/MadelineProto\\\/Ipc\\\/Runner\\\/entry.php\")\r\nautoload.php(7):    \tgetLoader()\r\nmadeline-74.phar(16):\trequire_once(\"phar:\\\/\\\/D:\\\/wamp64\\\/www\\\/ShareYourLinkBody\\\/madeline-74.phar\\\/vendor\\\/autoload.php\")\r\nmadeline.php(170):  \trequire_once(\"D:\\\\wamp64\\\\www\\\\ShareYourLinkBody\\\\madeline-74.phar\")"},null)
+Placeholder.php(120):	onResolve({})
+Deferred.php(48):   	resolve({})
+OutgoingMessage.php(196):	resolve({})
+Driver.php(102):    	danog\MadelineProto\MTProto\{closure}("cwc",null)
+Driver.php(61):     	tick()
+Loop.php(87):       	run()
+Tools.php(313):     	run({})
+entry.php(98):      	wait({})
+entry.php(118):     	{closure}()
+autoload_real.php(69):	require("phar:\/\/D:\/wamp64\/www\/ShareYourLinkBody\/madeline-74.phar\/vendor\/danog\/madelineproto\/src\/danog\/MadelineProto\/Ipc\/Runner\/entry.php")
+autoload_real.php(59):	composerRequire12fe9dc936e40e00104db0ef00eeefbc("efa978c9bd4884d9c38b8fa99d974f0e","phar:\/\/D:\/wamp64\/www\/ShareYourLinkBody\/madeline-74.phar\/vendor\/composer\/..\/danog\/madelineproto\/src\/danog\/MadelineProto\/Ipc\/Runner\/entry.php")
+autoload.php(7):    	getLoader()
+madeline-74.phar(16):	require_once("phar:\/\/D:\/wamp64\/www\/ShareYourLinkBody\/madeline-74.phar\/vendor\/autoload.php")
+madeline.php(170):  	require_once("D:\\wamp64\\www\\ShareYourLinkBody\\madeline-74.phar")[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mResponseHandler, ShareYourLinkManager: 	Flood, waiting 8 seconds before repeating async call of contacts.resolveUsername with message ID 6948485562772750336...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[31;1;47mAckHandler, ShareYourLinkManager:     	Could not find contacts.resolveUsername in new_outgoing![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mMsgIdHandler64, ShareYourLinkManager: 	Given message id (6948485604549560321) is bigger than or equal to the current limit (6948485604549547009). Consider syncing your date.[0m
+[97;1;41mPeerHandler, ShareYourLinkManager:    	Username resolution failed with error USERNAME_NOT_OCCUPIED[0m
+[31;1;47mException, ShareYourLinkManager:      	This peer is not present in the internal peer database in PeerHandler.php:679[0m
+[97;1;41mMTProto, ShareYourLinkManager:        	Got error while calling IPC method: \danog\MadelineProto\Exception: This peer is not present in the internal peer database in phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/MTProtoTools/PeerHandler.php:679
+Revision: 99883e87ffb1490e8b66bcbc7b4122820f0a18ae-74 (AN UPDATE IS REQUIRED)
+TL Trace:
+
+PeerHandler.php(677):	getInfo()
+PeerHandler.php(820):	getInfo()
+Server.php(200):    	getFullInfo("\ud83e\uddd0",[])
+clientRequest({},4,["getFullInfo",["\ud83e\uddd0",[]]])
+Coroutine.php(115): 	send(null)
+Failure.php(30):    	danog\MadelineProto\{closure}({"rpc":"USERNAME_NOT_OCCUPIED","tlTrace":"['contacts.resolveUsername']\r\nCallHandler.php(59):\tmethodCallAsyncRead()\r\nPeerHandler.php(1194):\tmethodCallAsyncRead()\r\nPeerHandler.php(676):\tresolveUsername()\r\nPeerHandler.php(820):\tgetInfo()\r\nServer.php(200):    \tgetFullInfo(\"\\ud83e\\uddd0\",[])\r\nclientRequest()\r\n\r\nPrevious TL trace:\r\n['contacts.resolveUsername']\r\nResponseHandler.php(183):\thandleRpcError({},{\"_\":\"rpc_error\",\"error_code\":400,\"error_message\":\"USERNAME_NOT_OCCUPIED\"})\r\nResponseHandler.php(65):\thandleResponse({})\r\nDriver.php(102):    \thandleMessages(\"dfh\",null)\r\nDriver.php(61):     \ttick()\r\nLoop.php(87):       \trun()\r\nTools.php(313):     \trun({})\r\nentry.php(98):      \twait({})\r\nentry.php(118):     \t{closure}()\r\nautoload_real.php(69):\trequire(\"phar:\\\/\\\/D:\\\/wamp64\\\/www\\\/ShareYourLinkBody\\\/madeline-74.phar\\\/vendor\\\/danog\\\/madelineproto\\\/src\\\/danog\\\/MadelineProto\\\/Ipc\\\/Runner\\\/entry.php\")\r\nautoload_real.php(59):\tcomposerRequire12fe9dc936e40e00104db0ef00eeefbc(\"efa978c9bd4884d9c38b8fa99d974f0e\",\"phar:\\\/\\\/D:\\\/wamp64\\\/www\\\/ShareYourLinkBody\\\/madeline-74.phar\\\/vendor\\\/composer\\\/..\\\/danog\\\/madelineproto\\\/src\\\/danog\\\/MadelineProto\\\/Ipc\\\/Runner\\\/entry.php\")\r\nautoload.php(7):    \tgetLoader()\r\nmadeline-74.phar(16):\trequire_once(\"phar:\\\/\\\/D:\\\/wamp64\\\/www\\\/ShareYourLinkBody\\\/madeline-74.phar\\\/vendor\\\/autoload.php\")\r\nmadeline.php(170):  \trequire_once(\"D:\\\\wamp64\\\\www\\\\ShareYourLinkBody\\\\madeline-74.phar\")"},null)
+Placeholder.php(120):	onResolve({})
+Deferred.php(48):   	resolve({})
+OutgoingMessage.php(196):	resolve({})
+Driver.php(102):    	danog\MadelineProto\MTProto\{closure}("dfi",null)
+Driver.php(61):     	tick()
+Loop.php(87):       	run()
+Tools.php(313):     	run({})
+entry.php(98):      	wait({})
+entry.php(118):     	{closure}()
+autoload_real.php(69):	require("phar:\/\/D:\/wamp64\/www\/ShareYourLinkBody\/madeline-74.phar\/vendor\/danog\/madelineproto\/src\/danog\/MadelineProto\/Ipc\/Runner\/entry.php")
+autoload_real.php(59):	composerRequire12fe9dc936e40e00104db0ef00eeefbc("efa978c9bd4884d9c38b8fa99d974f0e","phar:\/\/D:\/wamp64\/www\/ShareYourLinkBody\/madeline-74.phar\/vendor\/composer\/..\/danog\/madelineproto\/src\/danog\/MadelineProto\/Ipc\/Runner\/entry.php")
+autoload.php(7):    	getLoader()
+madeline-74.phar(16):	require_once("phar:\/\/D:\/wamp64\/www\/ShareYourLinkBody\/madeline-74.phar\/vendor\/autoload.php")
+madeline.php(170):  	require_once("D:\\wamp64\\www\\ShareYourLinkBody\\madeline-74.phar")[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	MSGID duplicate (233210) in update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[31;1;47mException, ShareYourLinkManager:      	This peer is not present in the internal peer database in PeerHandler.php:679[0m
+[97;1;41mMTProto, ShareYourLinkManager:        	Got error while calling IPC method: \danog\MadelineProto\Exception: This peer is not present in the internal peer database in phar://D:/wamp64/www/ShareYourLinkBody/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/MTProtoTools/PeerHandler.php:679
+Revision: 99883e87ffb1490e8b66bcbc7b4122820f0a18ae-74 (AN UPDATE IS REQUIRED)
+TL Trace:
+
+PeerHandler.php(677):	getInfo("",3,false)
+PeerHandler.php(820):	getInfo("")
+Server.php(200):    	getFullInfo("",[])
+clientRequest({},5,["getFullInfo",["",[]]])
+Coroutine.php(115): 	send(null)
+Success.php(37):    	danog\MadelineProto\{closure}(null,null)
+Coroutine.php(154): 	onResolve({})
+Tools.php(492):     	__construct({})
+Server.php(169):    	callFork({})
+clientLoop({})
+Coroutine.php(115): 	send(["getFullInfo",["",[]]])
+Placeholder.php(125):	danog\MadelineProto\{closure}(null,["getFullInfo",["",[]]])
+Coroutine.php(100): 	resolve(["getFullInfo",["",[]]])
+Placeholder.php(125):	Amp\{closure}(null,["getFullInfo",["",[]]])
+Coroutine.php(100): 	resolve(["getFullInfo",["",[]]])
+Placeholder.php(125):	Amp\{closure}(null,"\u0000<\u0000\u0000\u0000a:2:{i:0;s:11:\"getFullInfo\";i:1;a:2:{i:0;s:0:\"\";i:1;a:0:{}}}")
+Deferred.php(48):   	resolve("\u0000<\u0000\u0000\u0000a:2:{i:0;s:11:\"getFullInfo\";i:1;a:2:{i:0;s:0:\"\";i:1;a:0:{}}}")
+ResourceInputStream.php(76):	resolve("\u0000<\u0000\u0000\u0000a:2:{i:0;s:11:\"getFullInfo\";i:1;a:2:{i:0;s:0:\"\";i:1;a:0:{}}}")
+NativeDriver.php(259):	Amp\ByteStream\{closure}()
+NativeDriver.php(97):	selectStreams()
+Driver.php(117):    	dispatch(true)
+Driver.php(61):     	tick()
+Loop.php(87):       	run()
+Tools.php(313):     	run({})
+entry.php(98):      	wait({})
+entry.php(118):     	{closure}()
+autoload_real.php(69):	require("phar:\/\/D:\/wamp64\/www\/ShareYourLinkBody\/madeline-74.phar\/vendor\/danog\/madelineproto\/src\/danog\/MadelineProto\/Ipc\/Runner\/entry.php")
+autoload_real.php(59):	composerRequire12fe9dc936e40e00104db0ef00eeefbc("efa978c9bd4884d9c38b8fa99d974f0e","phar:\/\/D:\/wamp64\/www\/ShareYourLinkBody\/madeline-74.phar\/vendor\/composer\/..\/danog\/madelineproto\/src\/danog\/MadelineProto\/Ipc\/Runner\/entry.php")
+autoload.php(7):    	getLoader()
+madeline-74.phar(16):	require_once("phar:\/\/D:\/wamp64\/www\/ShareYourLinkBody\/madeline-74.phar\/vendor\/autoload.php")
+madeline.php(170):  	require_once("D:\\wamp64\\www\\ShareYourLinkBody\\madeline-74.phar")[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShortMessage) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type message in update feed loop channel 1332933621...[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Getdiff fed me message of type messageService in update feed loop channel 1332933621...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mFeedLoop, ShareYourLinkManager:       	Got channel too long update, getting difference...[0m
+[33;1mMsgIdHandler64, ShareYourLinkManager: 	Given message id (6948486072028737537) is bigger than or equal to the current limit (6948486072028730369). Consider syncing your date.[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[33;1mAPIWrapper, ShareYourLinkManager:     	Saved session![0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updateShort) received via the socket...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop generic[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
+[32;1mUpdateHandler, ShareYourLinkManager:  	Parsing updates (updates) received via the socket...[0m
+[32;1mSeqLoop, ShareYourLinkManager:        	Was fed updates of type updates...[0m
+[33;1mFeedLoop, ShareYourLinkManager:       	Resumed update feed loop channel 1332933621[0m
