@@ -17,11 +17,11 @@
   private function __construct()
   {$this->LoadSettings();}
   protected function LoadSettings(){
-   $this->Bot_Backup_Session_Path = '/root/ShareYourLinkBody/Sessions/BotBackup/BotBackup.madeline.safe.php';
-   $this->Client_Backup_Session_Path = '/root/ShareYourLinkBody/Sessions/ClientBackup/ClientBackup.madeline.safe.php';
+   $this->Bot_Backup_Session_Path = '/root/ShareYourLinkBody/Sessions/BotBackup/BotBackup.madeline';
+   $this->Client_Backup_Session_Path = '/root/ShareYourLinkBody/Sessions/ClientBackup/ClientBackup.madeline';
    // session for use
-   $this->Bot_Session_Path = '/root/ShareYourLinkBody/Sessions/Bot/Bot.madeline.safe.php';
-   $this->Client_Session_Path = '/root/ShareYourLinkBody/Sessions/Client/Client.madeline.safe.php';
+   $this->Bot_Session_Path = '/root/ShareYourLinkBody/Sessions/Bot/Bot.madeline';
+   $this->Client_Session_Path = '/root/ShareYourLinkBody/Sessions/Client/Client.madeline';
   }
   public static function GetInstance(): \SessionManager
   {return self::$Instance ?? self::$Instance = new SessionManager();}

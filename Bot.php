@@ -1,4 +1,6 @@
 <?php
+ if(!defined ('MADELINE_BRANCH'))
+  define('MADELINE_BRANCH', '5.1.34');
  require_once 'madeline.php';
  require_once 'SessionManager.php';
  
