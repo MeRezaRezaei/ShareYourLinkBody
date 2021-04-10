@@ -58,90 +58,100 @@
   $this->Client_Session_Path = '/root/ShareYourLinkBody/Sessions/Client/Client.madeline';
   }
   public function GetFullInfo($Link){
-   try {
-   $FullInfo = $this->CheckLinkValidity($Link);
-   }
-   catch (RuntimeException $ExceptionWhileGettingGroupFullInfo){
-   switch ($ExceptionWhileGettingGroupFullInfo->getMessage()){
-    case 'IS_PRIVATE':{
-     try {
-      $this->JoinGroup($Link);
-      try {
-       $FullInfo = $this->CheckLinkValidity($Link);
-       $this->MLP->channels->leaveChannel(['channel' => $FullInfo['bot_api_id'], ]);
-      }
-      catch (RuntimeException $ExceptionWhileGettingGroupFullInfoAfterJoining){
-       switch ($ExceptionWhileGettingGroupFullInfoAfterJoining->getMessage()){
-        case 'IS_NOT_LINK':{
-         throw new RuntimeException('IS_NOT_LINK');
-         break;
+   $sem = sem_get(12345, 1);
+   if (sem_acquire($sem)) {
+    try {
+     $this->MLP->sleep(10);
+     $FullInfo = $this->CheckLinkValidity($Link);
+    }
+    catch (RuntimeException $ExceptionWhileGettingGroupFullInfo){
+     switch ($ExceptionWhileGettingGroupFullInfo->getMessage()){
+      case 'IS_PRIVATE':{
+       try {
+        $this->JoinGroup($Link);
+        try {
+         $FullInfo = $this->CheckLinkValidity($Link);
+         $this->MLP->channels->leaveChannel(['channel' => $FullInfo['bot_api_id'], ]);
         }
-        case 'USERNAME_INVALID':{
-         throw new RuntimeException('USERNAME_INVALID');
-         break;
-        }
-        case 'IS_USER':{
-         throw new RuntimeException('IS_USER');
-         break;
-        }
-        case 'UNHANDLED_EXCEPTION_DETECTED':
-        case 'UNEXPECTED_FULLINFO_TYPE':
-        case 'WRONG_FULLINFO_OBJECT':
-         {
-          throw new RuntimeException('UNABLE_TO_FIND_INFO');
-          break;
+        catch (RuntimeException $ExceptionWhileGettingGroupFullInfoAfterJoining){
+         switch ($ExceptionWhileGettingGroupFullInfoAfterJoining->getMessage()){
+          case 'IS_NOT_LINK':{
+           throw new RuntimeException('IS_NOT_LINK');
+           break;
+          }
+          case 'USERNAME_INVALID':{
+           throw new RuntimeException('USERNAME_INVALID');
+           break;
+          }
+          case 'IS_USER':{
+           throw new RuntimeException('IS_USER');
+           break;
+          }
+          case 'UNHANDLED_EXCEPTION_DETECTED':
+          case 'UNEXPECTED_FULLINFO_TYPE':
+          case 'WRONG_FULLINFO_OBJECT':
+           {
+            throw new RuntimeException('UNABLE_TO_FIND_INFO');
+            break;
+           }
+          default:{
+           throw new RuntimeException('UNHANDLED_EXCEPTION_DETECTED');
+           break;
+          }
          }
-        default:{
-         throw new RuntimeException('UNHANDLED_EXCEPTION_DETECTED');
-         break;
         }
        }
+       catch (RuntimeException $ExceptionWhileJoiningPrivateLink){
+        switch ($ExceptionWhileJoiningPrivateLink){
+         case 'CHANNELS_TOO_MUCH':{
+          throw new RuntimeException('CHANNELS_TOO_MUCH');
+         }
+         case 'UNHANDLED_EXCEPTION_DETECTED':{
+          throw new RuntimeException('UNHANDLED_EXCEPTION_DETECTED');
+         }
+         default:{
+          echo $ExceptionWhileJoiningPrivateLink;
+          throw new RuntimeException('UNHANDLED_EXCEPTION_DETECTED');
+         }
+        }
+     
+       }
+       break;
       }
-     }
-     catch (RuntimeException $ExceptionWhileJoiningPrivateLink){
-      switch ($ExceptionWhileJoiningPrivateLink){
-       case 'CHANNELS_TOO_MUCH':{
-        throw new RuntimeException('CHANNELS_TOO_MUCH');
-       }
-       case 'UNHANDLED_EXCEPTION_DETECTED':{
-        throw new RuntimeException('UNHANDLED_EXCEPTION_DETECTED');
-       }
-       default:{
-        echo $ExceptionWhileJoiningPrivateLink;
-        throw new RuntimeException('UNHANDLED_EXCEPTION_DETECTED');
-       }
+      case 'IS_NOT_LINK':{
+       throw new RuntimeException('IS_NOT_LINK');
+       break;
       }
-      
+   
+      case 'USERNAME_INVALID':{
+       throw new RuntimeException('USERNAME_INVALID');
+       break;
+      }
+      case 'IS_USER':{
+       throw new RuntimeException('IS_USER');
+       break;
+      }
+      case 'UNHANDLED_EXCEPTION_DETECTED':
+      case 'UNEXPECTED_FULLINFO_TYPE':
+      case 'WRONG_FULLINFO_OBJECT':
+       {
+        throw new RuntimeException('UNABLE_TO_FIND_INFO');
+        break;
+       }
+      default:{
+       break;
+      }
+   
      }
-     break;
     }
-    case 'IS_NOT_LINK':{
-     throw new RuntimeException('IS_NOT_LINK');
-     break;
-    }
-    
-    case 'USERNAME_INVALID':{
-     throw new RuntimeException('USERNAME_INVALID');
-     break;
-    }
-    case 'IS_USER':{
-     throw new RuntimeException('IS_USER');
-     break;
-    }
-    case 'UNHANDLED_EXCEPTION_DETECTED':
-    case 'UNEXPECTED_FULLINFO_TYPE':
-    case 'WRONG_FULLINFO_OBJECT':
-    {
-     throw new RuntimeException('UNABLE_TO_FIND_INFO');
-     break;
-    }
-    default:{
-     break;
-    }
+    sem_release($sem);
+    return $FullInfo;
     
    }
-   }
-   return $FullInfo;
+
+//Something went wrong...
+   throw new Exception('Sem_Execution_Does_Not_Work');
+ 
   }
  
  
