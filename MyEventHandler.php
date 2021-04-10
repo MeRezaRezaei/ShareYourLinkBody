@@ -69,7 +69,7 @@
     return;
    }
    else{
-    yield $this->messages->sendMessage(['peer' => $update, 'message' => 'درحال اماده سازی برای استخراج اطلاعات', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+    yield $this->messages->sendMessage(['peer' => $update, 'message' => 'درحال اماده سازی برای استخراج اطلاعات لطفا صبور باشید این کار بسیار زمانبر است', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
    $Client = Client::GetInstance();
     try {
      $FullInfo = $Client->GetFullInfo($update['message']['message']);
