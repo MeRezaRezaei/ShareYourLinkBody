@@ -1,0 +1,38 @@
+{
+  "_": "updateNewChannelMessage",
+  "message": {
+    "_": "message",
+    "out": false,
+    "mentioned": false,
+    "media_unread": false,
+    "silent": false,
+    "post": false,
+    "from_scheduled": false,
+    "legacy": false,
+    "edit_hide": false,
+    "pinned": false,
+    "id": 18,
+    "from_id": {
+      "_": "peerUser",
+      "user_id": 1741793808
+    },
+    "peer_id": {
+      "_": "peerChannel",
+      "channel_id": 1380225275
+    },
+    "date": 1618127556,
+    "message": "homeyra",
+    "replies": {
+      "_": "messageReplies",
+      "comments": false,
+      "replies": 0,
+      "replies_pts": 20
+    },
+    "to_id": {
+      "_": "peerChannel",
+      "channel_id": 1380225275
+    }
+  },
+  "pts": 20,
+  "pts_count": 1
+}

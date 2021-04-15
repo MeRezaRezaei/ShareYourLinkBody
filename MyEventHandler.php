@@ -5,7 +5,7 @@
  use danog\MadelineProto\API;
  use danog\MadelineProto\Logger;
  use danog\MadelineProto\RPCErrorException;
- 
+ try {
  /**
   * Event handler class.
   */
@@ -14,7 +14,7 @@
   /**
    * @var int|string Username or ID of bot admin
    */
-  const ADMIN = "ShareYourLinkManager"; // Change this
+  const ADMIN = "@ShareYourLinkManager"; // Change this
   /**
    * Get peer(s) where to report errors
    *
@@ -53,9 +53,17 @@
   public function onUpdateNewMessage(array $update): \Generator
   {
    try {
-   if ($update['message']['_'] === 'messageEmpty' || $update['message']['out'] ?? false) {
+   if (
+    $update['message']['_'] === 'messageEmpty'
+    || ($update['message']['out'] ?? false)
+    || $update['message']['_'] !== 'message'
+    || !isset($update['message']['message'])
+    || $update['_'] === 'updateNewChannelMessage'
+   ) {
+    echo json_encode($update,JSON_PRETTY_PRINT);
     return;
    }
+    echo json_encode($update,JSON_PRETTY_PRINT);
    $WelcomeMessage = ''
     .'سلام به ربات اشتراک گذاری لینک خوش امدید'.PHP_EOL.PHP_EOL
     .'من میتونم اطلاعات گروه ها و کانال های تلگرام رو استخراج کنم'.PHP_EOL.PHP_EOL
@@ -222,8 +230,13 @@
       .$BannedRights.PHP_EOL
       .'توضیحات'.':'.PHP_EOL.$Description.PHP_EOL
      ;
-     yield $this->messages->sendMessage(['peer' => -1001326282114, 'message' => $LinkInfoInWords, 'reply_to_msg_id' =>  null, 'parse_mode' => 'HTML','no_webpage'=>true]);
-     yield $this->messages->sendMessage(['peer' => $update, 'message' => $LinkInfoInWords, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML','no_webpage'=>true]);
+     $Update = $update;
+     $ChannelUpdate = yield $this->messages->sendMessage(['peer' => -1001326282114, 'message' => $LinkInfoInWords, 'reply_to_msg_id' =>  null, 'parse_mode' => 'HTML','no_webpage'=>true]);
+     yield $this->messages->sendMessage(['peer' => $Update, 'message' => $LinkInfoInWords, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML','no_webpage'=>true]);
+     yield $this->messages->forwardMessages(['silent' => false, 'background' => false, 'with_my_score' => null, 'from_peer' => $ChannelUpdate, 'id' => [$ChannelUpdate['updates'][0]['id']], 'to_peer' => 'chat#1380225275', 'schedule_date' => null, ]);
+     
+      //yield $this->messages->forwardMessages(['silent' => false, 'background' => false, 'with_my_score' => null, 'from_peer' => $ChannelUpdate, 'id' => [$ChannelUpdate['updates'][0]['id']], 'to_peer' => $update['message']['from_id']['user_id'], 'schedule_date' => null, ]);
+     
      return ;
     }
     catch (RuntimeException $RuntimeExceptionWhileGettingLinkFullInfo){
@@ -241,7 +254,14 @@
       break;
      }
      case 'UNABLE_TO_FIND_INFO':
-     case 'CHANNELS_TOO_MUCH':
+      {
+       yield $this->messages->sendMessage(['peer' => $update, 'message' => 'قادر به دریافت اطلاعات نیستیم', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+       break;
+      }
+     case 'CHANNELS_TOO_MUCH':{
+      yield $this->messages->sendMessage(['peer' => $update, 'message' => 'تعداد نهایت کانال های کلاینت به پایان رسیده', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+      break;
+     }
      case 'UNHANDLED_EXCEPTION_DETECTED':
       {
      yield $this->messages->sendMessage(['peer' => $update, 'message' => 'مشکلی در ارائه خدمات وجود دارد لطفا مجددا تلاش کنید', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
@@ -249,6 +269,14 @@
      }
     }
     return ;
+    }
+    
+    catch (RPCErrorException $e) {
+     $this->report("Surfaced: $e");
+    } catch (Exception $e) {
+     if (\stripos($e->getMessage(), 'invalid constructor given') === false) {
+      $this->report("Surfaced: $e");
+     }
     }
     catch (Exception $ExceptionWhileGettingLinkFullInfo){
      yield $this->messages->sendMessage(['peer' => $update, 'message' => 'مشکلی در ارائه خدمات وجود دارد لطفا مجددا تلاش کنید', 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
@@ -273,3 +301,10 @@
    }
   }
  }
+ 
+
+ 
+ }catch (Exception $exception){
+  echo $exception;
+ }
+ 

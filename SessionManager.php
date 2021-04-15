@@ -14,6 +14,9 @@
   // singleton design pattern instance
   private static $Instance = null;
   
+  protected $Bot2_Backup_Session_Path = null;
+  protected $Bot2_Session_Path = null;
+  
   private function __construct()
   {$this->LoadSettings();}
   protected function LoadSettings(){
@@ -22,32 +25,34 @@
    // session for use
    $this->Bot_Session_Path = '/root/ShareYourLinkBody/Sessions/Bot/Bot.madeline';
    $this->Client_Session_Path = '/root/ShareYourLinkBody/Sessions/Client/Client.madeline';
+   
+   $this->Bot2_Backup_Session_Path = '/root/ShareYourLinkBody/Sessions/Bot2Backup/Bot2Backup.madeline';
+   $this->Bot2_Session_Path = '/root/ShareYourLinkBody/Sessions/Bot2/Bot2.madeline';
+   
   }
   public static function GetInstance(): \SessionManager
   {return self::$Instance ?? self::$Instance = new SessionManager();}
   
   public function Get_Sessions_Ready(){
    if ($this->SessionCopiedBefore === false){
-    
-    if (!$this->Does_Bot_Session_Exist()){
-     throw new Exception('BOT_BACKUP_SESSION_DOES_NOT_EXIST');
-    }
-    
-    if (!$this->Does_Client_Session_Exist()){
-     throw new Exception('CLIENT_BACKUP_SESSION_DOES_NOT_EXIST');
-    }
-    $this->Clear_Bot_Session_If_Exist();
-    $this->Clear_Client_Session_If_Exist();
- 
-    if (!$this->Copy_Bot_Session()){
-     throw new Exception('UNABLE_TO_COPY_BOT_SESSION');
-    }
-    if (!$this->Copy_Client_Session()){
-     throw new Exception('UNABLE_TO_COPY_CLIENT_SESSION');
-    }
-    return false;
+    $this->Get_Bot_Ready();
+    $this->Get_Client_Ready();
    }
    return $this->SessionCopiedBefore;
+  }
+  
+  public function Get_Client_Ready(){
+   if (!$this->Does_Client_Session_Exist()){
+    throw new Exception('CLIENT_BACKUP_SESSION_DOES_NOT_EXIST');
+   }
+ 
+   $this->Clear_Client_Session_If_Exist();
+ 
+ 
+   if (!$this->Copy_Client_Session()){
+    throw new Exception('UNABLE_TO_COPY_CLIENT_SESSION');
+   }
+   return false;
   }
   
   protected function Clear_Bot_Session_If_Exist(): bool {
@@ -91,7 +96,48 @@
    return file_exists($this->Client_Backup_Session_Path);
   }
   
+  public function Get_Bot_Ready(){
+   if (!$this->Does_Bot_Session_Exist()){
+    
+    throw new Exception('BOT_BACKUP_SESSION_DOES_NOT_EXIST');
+   }
+   $this->Clear_Bot_Session_If_Exist();
+   
+   if (!$this->Copy_Bot_Session()){
+    throw new Exception('UNABLE_TO_COPY_BOT_SESSION');
+   }
+   
+   
+  }
+  public function Get_Bot2_Ready(){
+  if (!$this->Does_Bot2_Session_Exist()){
+   throw new Exception('BOT2_BACKUP_SESSION_DOES_NOT_EXIST');
+  }
+  $this->Clear_Bot2_Session_If_Exist();
+   if (!$this->Copy_Bot2_Session()){
+    throw new Exception('UNABLE_TO_COPY_BOT2_SESSION');
+   }
+  }
+  public function Does_Bot2_Session_Exist(){
+   if ($this->Bot2_Backup_Session_Path === null){$this->LoadSettings();}
+   return file_exists($this->Bot2_Backup_Session_Path);
+  }
+  public function Clear_Bot2_Session_If_Exist(){
+   if ($this->Bot2_Session_Path === null){$this->LoadSettings();}
+   if (file_exists($this->Bot2_Session_Path)){
+    if (unlink($this->Bot2_Session_Path)){
+     return true;
+    }
+    throw new Exception('UNABLE_TO_DELETE_BOT2_SESSION');
+   }
+   return true;
+  }
+  
+  public function Copy_Bot2_Session(){
+   return copy($this->Bot2_Backup_Session_Path,$this->Bot2_Session_Path);
+  }
  }
  
  $Session = SessionManager::GetInstance();
- $Session->Get_Sessions_Ready();
+ 
+ //$Session->Get_Sessions_Ready();

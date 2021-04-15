@@ -1,17 +1,19 @@
 <?php
+ 
+ 
  try {
   if(!defined ('MADELINE_BRANCH'))
    define('MADELINE_BRANCH', '5.1.34');
   require_once 'madeline.php';
   require_once 'SessionManager.php';
- 
-  class Bot
+  
+  class Bot2
   {
-  
+   
    private static $Instance = null;
-  
-   protected $Bot_Session_Path = null;
-  
+   
+   protected $Bot2_Session_Path = null;
+   
    protected $settings = [
     'serialization' => [
      'cleanup_before_serialization' => true,
@@ -34,35 +36,35 @@
      ]
     ]
    ];
-  
+   
    public $MLP = null;
-  
+   
    private function __construct()
    {
     $Session = SessionManager::GetInstance();
-    $Session->Get_Bot_Ready();
+    $Session->Get_Bot2_Ready();
     $this->LoadSettings();
-    $this->LoadBot();
+    $this->LoadBot2();
    }
-  
+   
    public static function GetInstance(){
-    return self::$Instance ?? self::$Instance = new Bot();
+    return self::$Instance ?? self::$Instance = new Bot2();
    }
    protected function LoadSettings(){
-    $this->Bot_Session_Path = '/root/ShareYourLinkBody/Sessions/Bot/Bot.madeline';
+    $this->Bot2_Session_Path = '/root/ShareYourLinkBody/Sessions/Bot2/Bot2.madeline';
    }
-   protected function LoadBot(){
+   protected function LoadBot2(){
     try {
-     $this->MLP = new \danog\MadelineProto\API($this->Bot_Session_Path,$this->settings);
+     $this->MLP = new \danog\MadelineProto\API($this->Bot2_Session_Path,$this->settings);
      if ($this->MLP->getSelf() === false){
       throw new Exception('CLIENT_SELF_IS_FALSE');
      }
     }
-    catch (Exception $ExceptionWhileLoadingBotSession){
-     echo $ExceptionWhileLoadingBotSession;
+    catch (Exception $ExceptionWhileLoadingBot2Session){
+     echo $ExceptionWhileLoadingBot2Session;
     }
    }
-  
+   
    public function __destruct()
    {
     // TODO: Implement __destruct() method.
@@ -70,22 +72,19 @@
     unset($this->MLP);
    }
   }
- 
- 
- 
-  $Bot = Bot::GetInstance();
+  
+  
+  
+  $Bot2 = Bot2::GetInstance();
  }
  catch (Exception $exception){
- echo $exception;
+  echo $exception;
  }
  catch (DBException $DBException){
- echo $DBException;
+  echo $DBException;
  }
  catch (RuntimeException $runtimeException){
   echo $runtimeException;
  }
-
-// echo json_encode($Bot->MLP->getSelf());
  
- 
- 
+  //echo json_encode($Bot2->MLP->getSelf());

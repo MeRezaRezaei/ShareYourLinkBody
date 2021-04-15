@@ -36,7 +36,7 @@
   private function __construct()
   {
    $Session = SessionManager::GetInstance();
-   $Session->Get_Sessions_Ready();
+   $Session->Get_Client_Ready();
    $this->LoadSettings();
    $this->LoadClient();
   }
@@ -87,8 +87,12 @@
            throw new RuntimeException('IS_USER');
            break;
           }
-          case 'UNHANDLED_EXCEPTION_DETECTED':
-          case 'UNEXPECTED_FULLINFO_TYPE':
+          case 'UNHANDLED_EXCEPTION_DETECTED':{
+           throw new RuntimeException('UNHANDLED_EXCEPTION_DETECTED');
+          }
+          case 'UNEXPECTED_FULLINFO_TYPE':{
+          throw new \RuntimeException('UNEXPECTED_FULLINFO_TYPE');
+         }
           case 'WRONG_FULLINFO_OBJECT':
            {
             throw new RuntimeException('UNABLE_TO_FIND_INFO');
@@ -131,8 +135,12 @@
        throw new RuntimeException('IS_USER');
        break;
       }
-      case 'UNHANDLED_EXCEPTION_DETECTED':
-      case 'UNEXPECTED_FULLINFO_TYPE':
+      case 'UNHANDLED_EXCEPTION_DETECTED':{
+       throw new RuntimeException('UNHANDLED_EXCEPTION_DETECTED');
+      }
+      case 'UNEXPECTED_FULLINFO_TYPE':{
+      throw new \RuntimeException('UNEXPECTED_FULLINFO_TYPE');
+     }
       case 'WRONG_FULLINFO_OBJECT':
        {
         throw new RuntimeException('UNABLE_TO_FIND_INFO');
